@@ -110,7 +110,7 @@ func main() {
 		"https://t.me/s/rayvps",
 		"https://t.me/s/free1_vpn",
 		"https://t.me/s/Parsashonam",
-		"https://t.me/s/Hope_Net",
+		"https://t.me/s/Hope_Net{all_messages}",
 		"https://t.me/s/VPNCLOP",
 		"https://t.me/s/VlessConfig",
 		"https://t.me/s/NIM_VPN_ir",
