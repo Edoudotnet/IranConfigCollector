@@ -19,6 +19,7 @@ var client = &http.Client{}
 func main() {
 	channels := []string{
 		"https://t.me/s/PrivateVPNs",
+		"https://t.me/s/EmadGraphic",
 		"https://t.me/s/FreeV2rays",
 		"https://t.me/s/DigiV2ray",
 		"https://t.me/s/v2rayNG_VPN",
