@@ -19,7 +19,7 @@ var client = &http.Client{}
 func main() {
 	channels := []string{
 		"https://t.me/s/PrivateVPNs",
-		"https://t.me/s/EmadGraphic",
+		"https://t.me/s/EmadGraphic{all_messages}",
 		"https://t.me/s/FreeV2rays",
 		"https://t.me/s/DigiV2ray",
 		"https://t.me/s/v2rayNG_VPN",
@@ -181,7 +181,7 @@ func main() {
 		messages := doc.Find(".tgme_widget_message_wrap").Length()
 		link, exist := doc.Find(".tgme_widget_message_wrap .js-widget_message").Last().Attr("data-post")
 		if messages < 100 && exist == true {
-			number := strings.Split(link, "/")[1]
+			number := strings.Split(link, "/")[3]
 			fmt.Println(number)
 
 			doc = GetMessages(10, doc, number, channels[i])
